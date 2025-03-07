@@ -1,0 +1,51 @@
+# .env 파일 무시
+.env
+.env.*
+!.env.example
+
+# PDF 파일 무시
+*.pdf
+
+# Python 관련 파일 무시
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 로그 파일 무시
+logs/
+*.log
+
+# 설정 파일 무시 (선택적)
+config.json
+
+# 운영체제 관련 파일 무시
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE 관련 파일 무시
+.idea/
+.vscode/
+*.swp
+*.swo
